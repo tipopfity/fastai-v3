@@ -12,14 +12,7 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://drive.google.com/open?id=1QstsIX5_rO9NJJPxrfT32SHBw5q31yvI'
 export_file_name = 'trained_model50.pkl'
 
-classes = ['Blue',
- 'Green',
- 'Green and red',
- 'Green and yellow',
- 'Red',
- 'Red and yellow',
- 'Yellow',
- 'off']
+classes = ['Blue','Green','Green and red','Green and yellow','Red','Red and yellow','Yellow','off']
 path = Path(__file__).parent
 
 app = Starlette()
