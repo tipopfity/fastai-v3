@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=16Cv52zDw9u6V8GhY4xg6OriqeevVj770'
-export_file_name = 'cropped.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=19WvYuMLC7gwZzJGRZsLR_0OMMnMbHM4M'
+export_file_name = 'cropped_notcombi.pkl'
 
-classes = ['Blue','Green','Green and red','Green and yellow','Red','Red and yellow','Yellow','off']
+classes = ['Green','Green and red','Red','Yellow','off']
 path = Path(__file__).parent
 
 app = Starlette()
